@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sato.satoats">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialThemeActionBar"
+        android:windowSoftInputMode="adjustPan">
+        <activity android:name=".Transfer.ViewTransferActivity"></activity>
+        <activity android:name=".Transfer.LocationTransferActivity" />
+        <activity android:name=".Loan.ScanReturnLoanActivity" />
+        <activity android:name=".Loan.ScanLoanItemActivity" />
+        <activity android:name=".Loan.ViewReturnLoanActivity" />
+        <activity android:name=".Loan.ViewLoanActivity" />
+        <activity android:name=".Audit.ViewAuditActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".Audit.AuditActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/MyMaterialTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

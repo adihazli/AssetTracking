@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sato ATS</string>
+    <string name="MyPref">My Shared Preferences</string>
+    <string name="appdb_name">SatoATS.sqlite</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="userID">UserID</string>
+    <string name="plant">Plant</string>
+
+
+    <!-- This is Shared Preferences item for MSSQL -->
+
+    <string name="DeviceName">Device Name</string>
+    <string name="IpAddress">Server IP Address</string>
+    <string name="ServerPort">Server Port</string>
+    <string name="DatabaseName">Database Name</string>
+    <string name="DBuserName">Database Username</string>
+    <string name="DBpassword">Database Password</string>
+
+
+</resources>

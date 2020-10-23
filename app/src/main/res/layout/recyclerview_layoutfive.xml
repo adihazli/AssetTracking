@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:id="@+id/recylerViewFiveLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id = "@+id/rowFiveItem1"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height = "match_parent"
+                android:ellipsize = "end"
+                android:background="@drawable/cell_shaperecyclerviewleft"
+                android:padding = "5dp"
+                android:text = "sNo"
+                android:singleLine = "true" />
+
+        <TextView
+                android:id = "@+id/rowFiveItem2"
+                android:layout_width="100dp"
+                android:layout_height = "match_parent"
+                android:ellipsize = "end"
+                android:background="@drawable/cell_shaperecyclerview"
+                android:padding = "5dp"
+                android:text = "product"
+                android:maxLines="4"/>
+
+        <TextView
+                android:id = "@+id/rowFiveItem3"
+                android:layout_width="150dp"
+                android:layout_height = "match_parent"
+                android:ellipsize = "end"
+                android:background="@drawable/cell_shaperecyclerview"
+                android:padding = "5dp"
+                android:text = "category"
+                android:maxLines="4" />
+
+        <TextView
+                android:id = "@+id/rowFiveItem4"
+                android:layout_width="100dp"
+                android:layout_height = "match_parent"
+                android:ellipsize = "end"
+                android:background="@drawable/cell_shaperecyclerview"
+                android:padding = "5dp"
+                android:gravity="center"
+                android:text = "Quantity"
+                android:maxLines="4" />
+
+        <TextView
+                android:id = "@+id/rowFiveItem5"
+                android:layout_width="130dp"
+                android:layout_height = "match_parent"
+                android:ellipsize = "end"
+                android:gravity="center"
+                android:background="@drawable/cell_shaperecyclerviewright"
+                android:padding = "5dp"
+                android:text = "Scan Date"
+                android:maxLines="4" />
+    </LinearLayout>
+
+</LinearLayout>

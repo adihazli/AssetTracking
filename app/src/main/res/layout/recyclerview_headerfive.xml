@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/relativeLayoutFiveHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:background="@color/satoColor"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/headerFiveItem1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:padding="5dp"
+                android:text="Item 1"/>
+
+        <TextView
+                android:background="@color/satoColor"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/headerFiveItem2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Item 2"/>
+
+        <TextView
+                android:background="@color/satoColor"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/headerFiveItem3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Item 3"/>
+
+        <TextView
+                android:background="@color/satoColor"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/headerFiveItem4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Item 4"/>
+
+        <TextView
+                android:background="@color/satoColor"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/headerFiveItem5"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Item 5"/>
+
+    </LinearLayout>
+
+</LinearLayout>
